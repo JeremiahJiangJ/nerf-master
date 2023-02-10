@@ -1,0 +1,15 @@
+expname = reflection_test
+basedir = ./logs
+datadir = ./data/nerf_llff_data/reflection
+dataset_type = llff
+
+factor = 8
+llffhold = 8
+
+N_rand = 512
+N_samples = 32
+N_importance = 32
+
+use_viewdirs = True
+raw_noise_std = 1e0
+
